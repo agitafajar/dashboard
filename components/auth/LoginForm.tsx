@@ -85,7 +85,7 @@ export default function LoginForm() {
                 <FormItem>
                   <FormLabel>Username</FormLabel>
                   <FormControl>
-                    <Input type="text" placeholder="kminchelle" {...field} />
+                    <Input type="text" placeholder="emilys" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -99,7 +99,11 @@ export default function LoginForm() {
                 <FormItem>
                   <FormLabel>Password</FormLabel>
                   <FormControl>
-                    <Input type="password" placeholder="0lelplR" {...field} />
+                    <Input
+                      type="password"
+                      placeholder="emilyspass"
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -117,7 +121,7 @@ export default function LoginForm() {
       </CardContent>
       <CardFooter>
         <p className="text-sm text-muted-foreground">
-          Contoh akun: kminchelle / 0lelplR
+          Contoh akun: emilys / emilyspass
         </p>
       </CardFooter>
     </Card>
